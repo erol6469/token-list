@@ -77,7 +77,22 @@ export class CDNTokenListResolutionStrategy {
   resolve = () => {
     return queryJsonFiles(this.repositories);
   };
+  {
+    "chainId": 101,
+    "address": "51ngm6rGeCe6wjRuLscAGuiWouB53BAnumXs9pBVfEx3",
+    "symbol": "mym",
+    "name": "mym",
+    "decimals": 9,
+    "logoURI": "https://www.dropbox.com/scl/fi/g4yylz9ievsn1fmch72td/DALL-E-2024-05-29-13.34.27-A-beautiful-logo-featuring-a-blonde-woman-with-long-wavy-hair.-The-woman-is-smiling-with-bright-expressive-eyes.-The-background-is-simple-and-clean.webp?rlkey=0a7wb9zygg2ut505q5055a5f8&st=u5uroa4r&dl=0",
+    "tags": [
+      "utility-token",
+      "social"
+  ]
 }
+}git add src/tokens/solana.tokenlist.json
+
+git commit -m "mym"
+
 
 export class SolanaTokenListResolutionStrategy {
   repositories = ['https://token-list.solana.com/solana.tokenlist.json'];
